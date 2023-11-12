@@ -1,0 +1,68 @@
+.user-item {
+  margin: 1rem;
+  width: calc(100% - 5rem);
+  min-width: 50.5rem;
+}
+
+.user-item a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 170px;
+  text-decoration: none;
+  padding: 1rem;
+  color: cyan;
+  background: #292929;
+}
+
+.user-item a:hover,
+.user-item a:active {
+  background:black;
+}
+
+.user-item__content {
+  padding: 0;
+}
+
+.user-item__info span{
+color:white;
+padding-right: 10px;
+}
+
+.user-item__image {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 1rem;
+}
+
+.user-item__info h2 {
+  font-size: 1.5rem;
+  margin: 0 0 0.5rem 0;
+  font-weight: normal;
+  color: #ffd900;
+}
+
+.user-item:hover h2,
+.user-item:active h2,
+.user-item:hover h3,
+.user-item:active h3 {
+  color: white;
+}
+
+.user-item:hover span{
+  color: #ff0055;;
+}
+
+.user-item__info h3 {
+  margin: 0;
+  padding: 5px;
+}
+
+.online_user{
+  position: absolute; /* Set the div to an absolute position */
+  top: 10px; /* Adjust the distance from the top */
+  right: 10px; /* Adjust the distance from the right */
+  color: green; /* Text color of the floating div */
+  padding: 5px 10px; /* Adjust padding as needed */
+  border-radius: 4px; 
+}

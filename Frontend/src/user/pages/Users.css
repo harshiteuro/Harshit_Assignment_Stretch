@@ -1,0 +1,45 @@
+.search-container {
+    text-align: center;
+}
+
+/* Style for the search input */
+.search-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Style for the search button */
+.search-button {
+    background-color: #ff0055;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the search button */
+.search-button:hover {
+    background-color: #ffd900;
+    color: black;
+}
+
+.search-container {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style for the category dropdown */
+.category-dropdown {
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
